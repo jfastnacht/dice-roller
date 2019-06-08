@@ -29,6 +29,6 @@
     }
   },
   "bin": [
-    "php-cs-fixer"
+    "dice-roller"
   ]
 }
