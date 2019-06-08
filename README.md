@@ -4,7 +4,7 @@
 
 ## Installation
 
-Clone repository and run (Composer)[https://getcomposer.org/] installation:
+Clone repository and run [Composer](https://getcomposer.org/) installation:
 
 `composer install`
 
