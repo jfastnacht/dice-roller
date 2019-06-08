@@ -1,6 +1,6 @@
 {
   "name": "jfastnacht/dice-roller",
-  "type": "project",
+  "type": "application",
   "license": "apache-2.0",
   "authors": [
     {
