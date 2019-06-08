@@ -9,6 +9,7 @@
     }
   ],
   "require": {
+    "ext-gd": "*",
     "symfony/console": "^4.3"
   },
   "require-dev": {

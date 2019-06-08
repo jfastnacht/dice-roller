@@ -9,11 +9,13 @@ if (file_exists($composerAutoload = __DIR__.'/../../autoload.php')) {
 }
 
 use JFastnacht\DiceRoller\Command\RollCommand as RollCommandAlias;
+use JFastnacht\DiceRoller\Command\SelfcheckCommand;
 use Symfony\Component\Console\Application;
 
 $application = new Application();
 
 $application->add(new RollCommandAlias());
+$application->add(new SelfcheckCommand());
 
 try {
     $application->run();
