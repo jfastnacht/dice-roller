@@ -51,7 +51,7 @@ class RollCommand extends Command
     {
         $sum = 0;
         for ($i=0; $i<$dice; $i++) {
-            $sum += rand(1, $sides);
+            $sum += random_int(1, $sides);
         }
         return $sum;
     }
