@@ -4,17 +4,17 @@
 
 ## Installation
 
-Clone repository and run [Composer](https://getcomposer.org/) installation:
+Install with [Composer](https://getcomposer.org/):
 
-`composer install`
+`composer global install jfastnacht/dice-roller dev-develop`
 
 ## Usage
 
-Within the directory run:
+If you have set your PATH for Composer binaries use:
 
-`php application.php dice:roll 1d20+2`
+`dice-roller dice:roll 1d20+2`
 
-to roll a d20 dice +2.
+to roll a d20 dice +2. If not use the absolute path instead.
 
 ## Contribution
 
