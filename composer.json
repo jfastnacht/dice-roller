@@ -1,0 +1,31 @@
+{
+  "name": "jfastnacht/dice-roller",
+  "type": "project",
+  "license": "apache-2.0",
+  "authors": [
+    {
+      "name": "Julian Fastnacht",
+      "email": "julian@fastnacht.it"
+    }
+  ],
+  "require": {
+    "symfony/console": "^4.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "JFastnacht\\DiceRoller\\": [
+        "src/"
+      ]
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JFastnacht\\DiceRoller\\Tests\\": [
+        "tests/"
+      ]
+    }
+  }
+}
