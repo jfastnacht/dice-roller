@@ -27,5 +27,8 @@
         "tests/"
       ]
     }
-  }
+  },
+  "bin": [
+    "php-cs-fixer"
+  ]
 }
